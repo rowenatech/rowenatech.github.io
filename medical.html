@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>罗威亚科技有限公司</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="js/jquery.min.js"> </script>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+
+
+</head>
+<body>
+<!--body-->
+<div id="home" class="banner">
+    <div class="container">
+        <div class="top-header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <div class="top-menu">
+                <span class="menu"> </span>
+                <ul>
+                    <nav class="cl-effect-5">
+                        <li><a class="active scroll"  href="#home"><span data-hover="HOME">HOME</span></a></li>
+                        <li>/</li>
+                        <li><a class="scroll" href="index.html#service"><span data-hover="WHAT WE DO">WHAT WE DO</span></a></li>
+                        <li>/</li>
+                        <li><a class="scroll" href="index.html#aboutus"><span data-hover="WHO WE ARE">WHO WE ARE</span></a></li>
+                        <li>/</li>
+                        <li><a class="scroll" href="index.html#contact"><span data-hover="CONTACT">CONTACT</span></a></li>
+                    </nav>
+                </ul>
+            </div>
+            <!-- script-for-menu -->
+            <script>
+                $("span.menu").click(function(){
+                    $(".top-menu ul").slideToggle("slow" , function(){
+                    });
+                });
+            </script>
+            <!-- script-for-menu -->
+            <div class="clearfix"></div>
+        </div>
+        <div class="banner-info">
+            <div class="container">
+                <h1>智慧医疗</h1>
+                <div>
+                    智慧医疗英文简称WIT120，是通过建立健康档案医疗信息平台，利用先进的物联网科技，实现患者与医务人员、医疗机构、医疗设备之间的互动。<br/>
+                    &nbsp;
+                </div>
+                <div>
+                    罗威亚也在持续关注智慧医疗产业，通过我们自身技术创新，移动应用开发优势创造更多应用场景、产品来提高对大众用户的诊疗产品体验，医疗患者的就医流程体验，医务工作者的的诊治水平及患者信息管理<br/>
+                    &nbsp;
+                </div>
+
+                <div>
+                    在不久的将来中国的医疗行业将融入更多的人工智能、智慧传感等高新技术，使中国的医疗服务真正意义达到“智慧”。<br/>
+                    &nbsp;
+                </div>
+                <div>
+                    同时构建和谐医患关系。医疗行业的特性也决定了成长周期慢的特色，但做大规模后的整体价值巨大，且是优质产业，远非受经济周期影响的传统企业可比。
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+
+
+
+<!---fotter-->
+<div class="fotter">
+    <p>罗威亚 &copy; 2015 Jalil All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+</div>
+<!---->
+
+<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+</body>
+</html>
