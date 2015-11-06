@@ -1242,11 +1242,16 @@ p.para{
 
 @font-face {
     font-family: 'Copperplate Gothic Bold';
-    url('copperplate.ttf') format('truetype'),
+    url('Copperplate Gothic Bold BT.ttf') format('truetype'),
     font-weight: bold;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Copperplate Gothic';
+url('copperplate.ttf') format('truetype'),
+font-weight: bold;
+    font-style: normal;
+}
 
 
 
