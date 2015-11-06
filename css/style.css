@@ -39,6 +39,7 @@ a:hover, a:focus {
 }
 .marginTop20{
     margin: 30px 0;
+    font-family: 'Microsoft YaHei';
 }
 .marginTop20 .contact-beijing{
     color: #a68607;
@@ -141,7 +142,7 @@ nav a:focus {
     font-size:1.2em;
     letter-spacing:2px;
     font-weight:400;
-    font-family: 'Source Code Pro';
+    font-family: Century Gothic;
 }
 a.downarrow {
     margin-top: 12.5em;
@@ -188,7 +189,7 @@ a.downarrow {
 .service-head  h3{
     color:#000;
     font-size:2.7em;
-    font-family:Century Gothic;
+    font-family: "Copperplate Gothic Bold";
     margin-bottom:88px;
     letter-spacing:1.3px;
     font-weight:bold;
@@ -224,7 +225,7 @@ a.downarrow {
     font-size:1.2em;
     margin-top:1em;
     word-spacing:1.5px;
-    font-family: 'Source Code Pro';
+    font-family: Century Gothic;
 }
 /*--author--*/
 .author{
@@ -306,7 +307,7 @@ a.downarrow {
 .callbacks_tabs a:after {
     content: "\f111";
     font-size: 0;
-    font-family: FontAwesome;
+    font-family: 'Copperplate Gothic';
     visibility: visible;
     display: block;
     height: 16px;
@@ -406,7 +407,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .team-head h3{
     color:#fff;
     font-size:2.7em;
-    font-family:Century Gothic;
+    font-family:'Copperplate Gothic';
     letter-spacing:1.3px;
     font-weight:600;
     text-align:center;
@@ -498,7 +499,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     font-weight: 600;
     font-size: 2.1em;
     margin-top: 1em;
-    font-family: Century Gothic;
+    font-family: 'Copperplate Gothic';
 }
 .client h4 {
     color: #fff;
@@ -512,7 +513,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .contact h3 {
     color: #000;
     font-size: 2.7em;
-    font-family: Century Gothic;
+    font-family: 'Copperplate Gothic Bold';
     margin-bottom: 14px;
     letter-spacing: 1.3px;
     font-weight: 600;
@@ -546,7 +547,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     padding: 10px 14px;
     border: 4px solid #000;
     font-size: 1.2em;
-    font-family: 'Source Code Pro';
+    font-family: Century Gothic;
     color: #000;
     outline: none;
     resize:none;
@@ -580,7 +581,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .fotter p{
     color:#fff;
-    font-size:1.3em;
+    font-size:1em;
 }
 .fotter p a{
     color:#fff;
@@ -1105,13 +1106,14 @@ ul.callbacks_tabs.callbacks1_tabs {
     color: #ffffff;
     font-size: 2.7em;
     font-weight: bold;
-    font-family: Century Gothic;
+    font-family: 'Copperplate Gothic Bold';
     text-align: center;
 }
 .about-us p{
     color: #ffffff;
     font-size:20px;
     margin:0;
+    font-family: Century Gothic;
 }
 .about-us span{
     display:block;
@@ -1198,6 +1200,7 @@ p.para{
     color: #ffffff;
     margin:3px 0;
     font-size: 12px;
+    font-family: 'Microsoft YaHei';
 }
 .hello{
     text-align:center;
