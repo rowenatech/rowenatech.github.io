@@ -38,7 +38,7 @@ a:hover, a:focus {
     /*height: 768px;*/
 }
 .marginTop20{
-    margin: 30px 0;
+    margin: 16px 0;
     font-family: 'Microsoft YaHei';
 }
 .marginTop20 .contact-beijing{
@@ -46,7 +46,12 @@ a:hover, a:focus {
 }
 .marginTop20 .lead{
     color: #a68607;
-
+    text-align: center;
+}
+.ro-center{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo{
@@ -832,7 +837,7 @@ ul.callbacks_tabs.callbacks1_tabs {
         cursor: pointer;
         text-align:center;
     }
-    .top-menu lable {
+    .top-menu .lable {
         display: none;
     }
     .top-menu ul li a.active {
