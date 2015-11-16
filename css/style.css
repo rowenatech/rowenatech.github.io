@@ -4,11 +4,87 @@
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-body{
-    margin:0;
-    padding:0;
-    background:#fff;
+
+/*http://meyerweb.com/eric/tools/css/reset/*/
+/**!/*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* particleground demo */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+body {
+    background: #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+.info{
+    height: auto;
+    position: relative;
+    top: -900px;
+}
+
 body a{
     transition:0.5s all;
     -webkit-transition:0.5s all;
@@ -34,7 +110,7 @@ a:hover, a:focus {
 }
 /*----*/
 .banner{
-    background:#000000;
+    /*background:#000000;*/
     /*height: 768px;*/
 }
 .marginTop20{
@@ -1241,7 +1317,10 @@ p.para{
     margin-bottom: 50px;
 }
 .contact{
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 
