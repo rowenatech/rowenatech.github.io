@@ -16,12 +16,24 @@
     <script src="js/animate/jquery.particleground.js"></script>
     <script src="js/animate/demo.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event){
-                event.preventDefault();
-                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-            });
-        });
+        if(!IsPC()){
+            window.location.href="indexMobile.html";
+//            alert("手机")
+        }
+
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = [ "Android", "iPhone", "SymbianOS", "Windows Phone",
+                "iPad", "iPod" ];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
     </script>
     <!---- start-smoth-scrolling---->
 

@@ -128,6 +128,8 @@ a:hover, a:focus {
     width: auto;
     margin: 0 auto;
     text-align: center;
+    color: #333;
+    font-size: 12px;
 }
 
 .logo{
@@ -1332,8 +1334,8 @@ p.para{
 }
 @font-face {
     font-family: 'Copperplate Gothic';
-url('copperplate.ttf') format('truetype'),
-font-weight: bold;
+    url('copperplate.ttf') format('truetype'),
+    font-weight: ;
     font-style: normal;
 }
 
