@@ -82,7 +82,11 @@ body {
 .info{
     height: auto;
     position: relative;
-    top: -850px;
+    top: -700px;
+}
+
+.show{
+    z-index: 999;
 }
 
 body a{
@@ -209,7 +213,7 @@ nav a:focus {
 /* Effect 5: same word slide in and border bottom */
 .banner-info{
     text-align:center;
-    margin:10% 0;
+    margin:50px 0;
 }
 .banner-info h1{
     color:#fff;
@@ -228,7 +232,7 @@ nav a:focus {
     font-family: Century Gothic;
 }
 a.downarrow {
-    margin-top: 12.5em;
+    margin-top: 10.5em;
     display: inline-block;
 }
 .banner a.downarrow span {
